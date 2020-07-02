@@ -22,7 +22,7 @@
             background-position: center;
             background-attachment: fixed;
             width: 100%;
-            height: 1000vh;
+            height: 600vh;
             animation: slider 30s infinite linear;
         }
 
@@ -48,7 +48,7 @@
         }
 
         .wedding-photo img {
-            opacity: 0.7;
+            opacity: 0.6;
             width: 100%;
             height: auto;
             transform: scale(1.0);
@@ -102,16 +102,16 @@
                     </a>
                     <ul class="right hide-on-med-and-down ">
                         <li><a href="#services"> Services</a></li>
-                        <li><a href="#approach">Approach</a></li>
                         <li><a href="#work">Work</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
                         <li><a href="#contact">Contact</a></li>
                     </ul>
                     <ul class="sidenav grey lighten-2" id="mobile-menu">
                         <li><a class="sidenav-close" href="#services">Services</a></li>
-                        <li><a class="sidenav-close" href="#approach">Work</a></li>
-                        <li><a class="sidenav-close" href="#work">Testimoniaks</a></li>
-                        <li><a class="sidenav-close" href="#contact">Gallery</a></li>
-                        <li><a class="sidenav-close" href="#contact">Contact</a></li>Contact
+                        <li><a class="sidenav-close" href="#work">Work</a></li>
+                        <li><a class="sidenav-close" href="#testimonials">Testimoniaks</a></li>
+                       
+                        <li><a class="sidenav-close" href="#contact">Contact</a></li>
                     </ul>
 
                 </div>
@@ -120,13 +120,6 @@
 
         </div>
 
-        <ul class="sidenav grey lighten-2" id="mobile-menu">
-            <li><a class="sidenav-close" href="#services">Services</a></li>
-            <li><a class="sidenav-close" href="#approach">Work</a></li>
-            <li><a class="sidenav-close" href="#work">Testimonials</a></li>
-            <li><a class="sidenav-close" href="#contact">Gallery</a></li>
-            <li><a class="sidenav-close" href="#contact">Contact</a></li>
-        </ul>
         <div class="covertext center-align" style="padding-top: 250px;">
             <p class="white-text" style="font-size: 30px; font-family:  monospace; font-weight: 800;">We take photos as a return ticket to a moment otherwise gone.</p>
             <p class="white-text" style="font-size: 20px; font-family: monospace;">Lakhan Films for an experience more real than reality</p>
@@ -139,7 +132,7 @@
 
         <!----services---->
 
-        <div class="services">
+        <div class="services scrollspy" id="services">
             <h4 class="white-text center-align" style="font-family: monospace; padding-top: 200px;">Services</h4>
             <hr class="red-text " style="width: 4%;">
         </div>
@@ -195,7 +188,7 @@
             </div>
         </div>
         <!-----WORK----->
-        <div class="work">
+        <div class="work scrollspy" id="work">
             <h4 class="white-text center-align" style="font-family: monospace; padding-top: 20px;">OUR WORK</h4>
             <hr class="red-text " style="width: 4%;">
 
@@ -377,7 +370,7 @@
             </div>
         </div>
         <!----Testimonials---->
-        <div class="container-fluid testmonials">
+        <div class="container-fluid testmonials scrollspy" id="testimonials">
             <h4 class="white-text center-align" style="font-family: monospace; padding-top: 40px;">Testimonials</h4>
             <hr style="width: 6%;">
             <div class="row">
@@ -477,7 +470,7 @@
         </div>---->
 
 
-        <div class="container album" style="padding-top: 50px;">
+        <div class="container album scrollspy" id="album" style="padding-top: 50px;">
             <h1 style="position: absolute; padding-left: 20%; padding-top: 85px; color: white; ">OUR ALBUM + </h1>
             <ul class="wedding-showcase clearfix">
 
@@ -584,7 +577,7 @@
             </ul>
         </div>
 
-        <div class="contact">
+        <div class="contact scrollspy" id="contact">
             <h4 class="white-text center-align" style="font-family: monospace; padding-top: 200px;">Contact Details</h4>
             <hr style="width: 6%;">
 <div class="container">
@@ -621,7 +614,6 @@
             $(document).ready(function() {
                 $('.sidenav').sidenav();
                 $('.tabs').tabs();
-                $('.datepicker').datepicker();
                 $('.scrollspy').scrollSpy();
             });
 
