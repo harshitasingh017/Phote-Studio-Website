@@ -24,9 +24,42 @@
             width: 100%;
             height: 1000vh;
             animation: slider 30s infinite linear;
+        }
 
+        .wedding-showcase {
+            list-style: none;
+            width: 100%;
+        }
+
+        .wedding-showcase li {
+            display: block;
+            float: left;
+            width: 11.1%;
 
         }
+
+        .wedding-photo {
+            height: 150px;
+            margin: 0;
+            overflow: hidden;
+            background-color: #000;
+            background-position: center;
+
+        }
+
+        .wedding-photo img {
+            opacity: 0.7;
+            width: 100%;
+            height: auto;
+            transform: scale(1.0);
+            transition: transform 0.5s, opacity: 0.5s;
+        }
+
+        .wedding-photo img:hover {
+            opacity: 1;
+            transform: scale(1.03);
+        }
+
 
         @keyframes slider {
             35% {
@@ -221,7 +254,7 @@
 
             </div>
 
-            <div class="row wedding" id="wedding">
+            <div class="row">
                 <div class="col s6 l2">
                     <div class="card-transparent ">
                         <img src="images/wedding5.jpg" class="responsive-img">
@@ -303,7 +336,7 @@
 
             </div>
 
-            <div class="row prewedding" id="prewedding">
+            <div class="row">
                 <div class="col s6 l2">
                     <div class="card-transparent ">
                         <img src="images/prewed7.JPG" class="responsive-img">
@@ -344,10 +377,7 @@
             </div>
         </div>
         <!----Testimonials---->
-
-
-
-        <div class="container testmonials">
+        <div class="container-fluid testmonials">
             <h4 class="white-text center-align" style="font-family: monospace; padding-top: 40px;">Testimonials</h4>
             <hr style="width: 6%;">
             <div class="row">
@@ -375,7 +405,7 @@
                         </div>
                         <div class="card-content">
                             <span class="card-title">Shikha Gupta</span>
-                            <p>Lakhan Films gave us the most memorable lifetime experience at our pre-wedding and wedding... They are an exceptional team with no dearth of ideas and amazing creativity... This team has already become integral part of our family, capturing tons of memories in the most fun way possible. They have done a great work with the special camera effects. They believe in work performance.</p>
+                            <p>Lakhan Films gave us the most memorable lifetime experience at our pre-wedding and wedding. They are an exceptional team with no dearth of ideas and amazing creativity. This team has already become integral part of our family, capturing tons of memories in the most fun way possible. They have done a great work with the special camera effects. They believe in work performance.</p>
                         </div>
                     </div>
                 </div>
@@ -389,7 +419,7 @@
                         </div>
                         <div class="card-content">
                             <span class="card-title">Pallavi Singh</span>
-                            <p>Lakhan Films is one of the best photographer in Kota. Each video has a different concept with creativity. My pre wedding video and wedding videos were made by their team which is amazing just because all person were really friendly and polite and captured natural poses. I just wanna say if you book them for your events then u will surely expect something special for which you would pay . </p>
+                            <p>Lakhan Films is one of the best photographer in Kota. My pre wedding video and wedding videos were made by their team which is amazing just because all person were really friendly and polite and captured natural poses. I just wanna say if you book them for your events then u will surely expect something special for which you would pay . </p>
                         </div>
                     </div>
                 </div>
@@ -399,53 +429,190 @@
 
         <!----Album----->
 
-        <div class="album">
+        <!----      <div class="album">
             <div class="container">
-            <div class="row">
-              <div class="col s12 l2">
-                    <img class="responsive-img materialboxed" src="images/wedding11.JPG">
+                <div class="row">
+                    <div class="col s12 l2">
+                        <img class="responsive-img materialboxed" src="images/wedding11.JPG">
+                    </div>
+                    <div class="col s12 l2">
+                        <img class="responsive-img materialboxed" src="images/wedding5.jpg">
+                    </div>
+                    <div class="col s12 l2">
+                        <img class="responsive-img materialboxed" src="images/wedding6.jpg">
+                    </div>
+                    <div class="col s12 l2">
+                        <img class="responsive-img materialboxed" src="images/wedding7.jpg">
+                    </div>
+                    <div class="col s12 l2">
+                        <img class="responsive-img materialboxed" src="images/prewed7.JPG">
+                    </div>
+                    <div class="col s12 l2">
+                        <img class="responsive-img materialboxed" src="images/prewed6.jpg">
+                    </div>
                 </div>
-                <div class="col s12 l2">
-                    <img class="responsive-img materialboxed" src="images/wedding5.jpg">
-                </div>
-                <div class="col s12 l2">
-                    <img class="responsive-img materialboxed" src="images/wedding6.jpg">
-                </div>
-                <div class="col s12 l2">
-                    <img class="responsive-img materialboxed" src="images/wedding7.jpg">
-                </div>
-                <div class="col s12 l2">
-                    <img class="responsive-img materialboxed" src="images/prewed7.JPG">
-                </div>
-                <div class="col s12 l2">
-                    <img class="responsive-img materialboxed" src="images/prewed6.jpg">
-                </div>
-            </div>
 
-            <div class="row">
-                <div class="col s12 l2">
-                    <img class="responsive-img materialboxed" src="images/album1.jpg">
+                <div class="row">
+                    <div class="col s12 l2">
+                        <img class="responsive-img materialboxed" src="images/album1.jpg">
+                    </div>
+                    <div class="col s12 l2">
+                        <img class="responsive-img materialboxed" src="images/album2.jpg">
+                    </div>
+                    <div class="col s12 l2">
+                        <img class="responsive-img materialboxed" src="images/album1.jpg">
+                    </div>
+                    <div class="col s12 l2">
+                        <img class="responsive-img materialboxed" src="images/album2.jpg">
+                    </div>
+                    <div class="col s12 l2">
+                        <img class="responsive-img materialboxed" src="images/album1.jpg">
+                    </div>
+                    <div class="col s12 l2">
+                        <img class="responsive-img materialboxed" src="images/album2.jpg">
+                    </div>
+
                 </div>
-                <div class="col s12 l2">
-                    <img class="responsive-img materialboxed" src="images/album2.jpg">
-                </div>
-                <div class="col s12 l2">
-                    <img class="responsive-img materialboxed" src="images/album1.jpg">
-                </div>
-                <div class="col s12 l2">
-                    <img class="responsive-img materialboxed" src="images/album2.jpg">
-                </div>
-                <div class="col s12 l2">
-                    <img class="responsive-img materialboxed" src="images/album1.jpg">
-                </div>
-                <div class="col s12 l2">
-                    <img class="responsive-img materialboxed" src="images/album2.jpg">
-                </div>
-               
             </div>
-                </div>
+        </div>---->
+
+
+        <div class="container album" style="padding-top: 50px;">
+            <h1 style="position: absolute; padding-left: 20%; padding-top: 85px; color: white; ">OUR ALBUM + </h1>
+            <ul class="wedding-showcase clearfix">
+
+                <li>
+                    <figure class="wedding-photo">
+                        <img src="images/album1.jpg">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="wedding-photo">
+                        <img src="images/album2.jpg">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="wedding-photo">
+                        <img src="images/album1.jpg">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="wedding-photo">
+                        <img src="images/album2.jpg">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="wedding-photo">
+                        <img src="images/album1.jpg">
+                    </figure>
+                </li>
+
+                <li>
+                    <figure class="wedding-photo">
+                        <img src="images/album1.jpg">
+                    </figure>
+                </li>
+                <li>
+                <li>
+                    <figure class="wedding-photo">
+                        <img src="images/album1.jpg">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="wedding-photo">
+                        <img src="images/album1.jpg">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="wedding-photo">
+                        <img src="images/album1.jpg">
+                    </figure>
+                </li>
+
+            </ul>
+
+            <ul class="wedding-showcase clearfix">
+
+                <li>
+                    <figure class="wedding-photo">
+                        <img src="images/album1.jpg">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="wedding-photo">
+                        <img src="images/album2.jpg">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="wedding-photo">
+                        <img src="images/album1.jpg">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="wedding-photo">
+                        <img src="images/album2.jpg">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="wedding-photo">
+                        <img src="images/album1.jpg">
+                    </figure>
+                </li>
+
+                <li>
+                    <figure class="wedding-photo">
+                        <img src="images/album1.jpg">
+                    </figure>
+                </li>
+                <li>
+                <li>
+                    <figure class="wedding-photo">
+                        <img src="images/album1.jpg">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="wedding-photo">
+                        <img src="images/album1.jpg">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="wedding-photo">
+                        <img src="images/album1.jpg">
+                    </figure>
+                </li>
+
+            </ul>
         </div>
 
+        <div class="contact">
+            <h4 class="white-text center-align" style="font-family: monospace; padding-top: 200px;">Contact Details</h4>
+            <hr style="width: 6%;">
+<div class="container">
+<div class="row">
+            <div class="col s12 l6" style="padding-top: 40px;">
+                <div class="btn transparent" style="height: 250px; ">
+    
+                <p class="red-text left-align" style="padding-top: 10px; font-size: 22px; font-weight: 500;">We are Social</p>
+        <p class="white-text" >Follow us on social network accounts.</p>
+        <div class="btn" >Facebook</div>
+        <div class="btn">Instagram</div>
+        <div class="btn">You Tube</div>
+                
+    </div>
+    </div>
+    <div class="col s12 l6" style="padding-top: 40px;">
+        <div class="btn transparent" style="height: 250px;">
+    <p class="red-text left-align" style="padding-top: 10px;  font-size: 22px; font-weight: 500;">QUICK CONTACT</p>
+        <p class="white-text left-align">Email: lakshyakhandelwal1995@gmail.com</p>
+        <p class="white-text left-align">Call: 8387930992, 9414378289</p>
+        <p class="white-text left-align">Timing: All days 10:00 AM to 8:00 PM</p>
+    </div>
+        </div>
+</div>
+  </div>
+      
+            <div class="footer center-align" style="background-color: gainsboro; margin-top: 40px; height: 42px; padding-top: 1px;"><h6 class="text-center">Copyright &copy; 2020, Design by Harshita Singh</h6></div>
+    
 
         <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 
