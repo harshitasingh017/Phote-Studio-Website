@@ -11,6 +11,7 @@
     <script src="https://kit.fontawesome.com/77d4172b70.js" crossorigin="anonymous"></script>
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Merienda+One&display=swap" rel="stylesheet">
 
     <title>Lakhan Films</title>
 
@@ -22,8 +23,9 @@
             background-position: center;
             background-attachment: fixed;
             width: 100%;
-            height: 600vh;
+
             animation: slider 30s infinite linear;
+            animation-delay: 2s;
         }
 
         .wedding-showcase {
@@ -86,6 +88,15 @@
                 min-height: 500px;
             }
 
+            .logo {
+                font-size: o.7em;
+            }
+
+            .social {
+                font-size: 10px;
+            }
+        }
+
     </style>
 </head>
 
@@ -96,7 +107,7 @@
         <div class="navbar-fixed" style="position: fixed; top: 0;">
             <nav class="nav-wrapper transparent lighten-1 ">
                 <div class="container">
-                    <a href="#" class="brand-logo">LAKHAN FILMS</a>
+                    <a href="#" class="brand-logo" style="font-family: 'Merienda One', cursive;"><span class="logo">Lakhan Films</span></a>
                     <a href="#" class="sidenav-trigger" data-target="mobile-menu">
                         <i class="material-icons">menu</i>
                     </a>
@@ -105,29 +116,32 @@
                         <li><a href="#work">Work</a></li>
                         <li><a href="#testimonials">Testimonials</a></li>
                         <li><a href="#contact">Contact</a></li>
-                    </ul>
-                    <ul class="sidenav grey lighten-2" id="mobile-menu">
-                        <li><a class="sidenav-close" href="#services">Services</a></li>
-                        <li><a class="sidenav-close" href="#work">Work</a></li>
-                        <li><a class="sidenav-close" href="#testimonials">Testimoniaks</a></li>
-                       
-                        <li><a class="sidenav-close" href="#contact">Contact</a></li>
+                        <li><a class="orange btn" href="album.html">Album</a></li>
                     </ul>
 
+
                 </div>
+
 
             </nav>
 
         </div>
 
+        <ul class="sidenav grey lighten-2" id="mobile-menu">
+            <li><a class="sidenav-close" href="#services">Services</a></li>
+            <li><a class="sidenav-close" href="#work">Work</a></li>
+            <li><a class="sidenav-close" href="#testimonials">Testimonials</a></li>
+            <li><a class="sidenav-close" href="#contact">Contact</a></li>
+            <li><a class="sidenav-close" href="album.html">Album</a></li>
+        </ul>
         <div class="covertext center-align" style="padding-top: 250px;">
             <p class="white-text" style="font-size: 30px; font-family:  monospace; font-weight: 800;">We take photos as a return ticket to a moment otherwise gone.</p>
             <p class="white-text" style="font-size: 20px; font-family: monospace;">Lakhan Films for an experience more real than reality</p>
         </div>
         <div class="col s6 l4 center-align">
-            <a href="#"><i class="fab fa-facebook-f" style="color: #0f0fb2; font-size: 40px; padding-right: 25px;"></i></a>
+            <a href="https://m.facebook.com/Lakhan-Films-2107307379302185/?ref=bookmarks"><i class="fab fa-facebook-f" style="color: #0f0fb2; font-size: 40px; padding-right: 25px;"></i></a>
             <a href="#"><i class="fab fa-instagram" style="color: #e83c99; font-size: 40px; padding-right: 25px;"></i></a>
-            <a href="#"><i class="fab fa-youtube" style="color: red; font-size: 40px;"></i></a>
+            <a href="https://www.youtube.com/channel/UC07uxxaj41QcUju7lkj2FsA"><i class="fab fa-youtube" style="color: red; font-size: 40px;"></i></a>
         </div>
 
         <!----services---->
@@ -174,7 +188,7 @@
 
                 <div class="col s12 l4">
                     <div class="card-transparent">
-                        <img class="responsive-img materialboxed" src="images/babytitle.jpg">
+                        <img class="responsive-img materialboxed" src="images/baby.jpg">
                         <p class="white-text center-align" style="font-family: monospace; font-size: 20px;">BABY SHOOT</p>
                     </div>
                 </div>
@@ -187,6 +201,7 @@
                 </div>
             </div>
         </div>
+
         <!-----WORK----->
         <div class="work scrollspy" id="work">
             <h4 class="white-text center-align" style="font-family: monospace; padding-top: 20px;">OUR WORK</h4>
@@ -206,165 +221,76 @@
                 </ul>
             </div>
 
-
             <div class="row wedding" id="wedding">
-                <div class="col s6 l2">
-                    <div class="card-transparent ">
-                        <img src="images/wedding1.jpg" class="responsive-img">
 
-                    </div>
-                </div>
                 <div class="col s6 l2">
-                    <div class="card-transparent ">
-                        <img src="images/wedding2.jpg" class="responsive-img">
+                    <img src="images/wedding5.jpg" class="responsive-img materialboxed">
 
-                    </div>
                 </div>
                 <div class="col s6 l2">
-                    <div class="card-transparent ">
-                        <img src="images/wedding3.jpg" class="responsive-img">
+                    <img src="images/wedding6.jpg" class="responsive-img materialboxed">
 
-                    </div>
-                </div>
-                <div class="col s12 l2">
-                    <div class="card-transparent ">
-                        <img src="images/wedding4.jpeg" class="responsive-img">
-
-                    </div>
-                </div>
-                <div class="col s12 l2">
-                    <div class="card-transparent ">
-                        <img src="images/wedding12.JPG" class="responsive-img">
-
-                    </div>
-                </div>
-                <div class="col s12 l2">
-                    <div class="card-transparent ">
-                        <img src="images/wedding9.JPG" class="responsive-img">
-
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="row">
-                <div class="col s6 l2">
-                    <div class="card-transparent ">
-                        <img src="images/wedding5.jpg" class="responsive-img">
-
-                    </div>
                 </div>
                 <div class="col s6 l2">
-                    <div class="card-transparent ">
-                        <img src="images/wedding6.jpg" class="responsive-img">
+                    <img src="images/wedding7.jpg" class="responsive-img materialboxed">
 
-                    </div>
-                </div>
-                <div class="col s6 l2">
-                    <div class="card-transparent ">
-                        <img src="images/wedding7.jpg" class="responsive-img">
-
-                    </div>
                 </div>
 
 
                 <div class="col s6 l2">
-                    <div class="card-transparent ">
-                        <img src="images/wedding8.jpg" class="responsive-img">
 
-                    </div>
+                    <img src="images/wedding8.jpg" class="responsive-img materialboxed">
+
                 </div>
                 <div class="col s6 l2">
-                    <div class="card-transparent ">
-                        <img src="images/wedding10.jpg" class="responsive-img">
 
-                    </div>
+                    <img src="images/wedding10.jpg" class="responsive-img materialboxed">
+
+
                 </div>
                 <div class="col s6 l2">
-                    <div class="card-transparent ">
-                        <a href=""><img src="images/wedding11.JPG" class="responsive-img"></a>
+                    
+                        <a href=""><img src="images/wedding11.JPG" class="responsive-img materialboxed"></a>
 
-                    </div>
                 </div>
             </div>
 
             <!----pre wedding---->
             <div class="row prewedding" id="prewedding">
                 <div class="col s6 l2">
-                    <div class="card-transparent ">
-                        <img src="images/prewed1.jpg" class="responsive-img">
+                   
+                        <img src="images/prewed7.JPG" class="responsive-img materialboxed">
 
-                    </div>
+                   
                 </div>
                 <div class="col s6 l2">
-                    <div class="card-transparent ">
-                        <img src="images/prewed2.jpg" class="responsive-img">
+                    
+                        <img src="images/prewed8.jpg" class="responsive-img materialboxed">
 
-                    </div>
+                    
                 </div>
                 <div class="col s6 l2">
-                    <div class="card-transparent ">
-                        <img src="images/prewed1.jpg" class="responsive-img">
+                    
+                        <img src="images/prewed3.jpg" class="responsive-img materialboxed">
 
-                    </div>
+                   
                 </div>
                 <div class="col s12 l2">
-                    <div class="card-transparent ">
-                        <img src="images/prewed10.jpg" class="responsive-img">
+                    
+                        <img src="images/prewed4.jpg" class="responsive-img materialboxed">
 
-                    </div>
+                 
                 </div>
                 <div class="col s12 l2">
-                    <div class="card-transparent ">
-                        <img src="images/prewed11.jpg" class="responsive-img">
+                   
+                        <img src="images/prewed5.jpg" class="responsive-img materialboxed">
 
-                    </div>
+                   
                 </div>
                 <div class="col s12 l2">
-                    <div class="card-transparent ">
-                        <img src="images/prewed12.jpg" class="responsive-img">
+                    
+                        <img src="images/prewed6.jpg" class="responsive-img materialboxed">
 
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="row">
-                <div class="col s6 l2">
-                    <div class="card-transparent ">
-                        <img src="images/prewed7.JPG" class="responsive-img">
-
-                    </div>
-                </div>
-                <div class="col s6 l2">
-                    <div class="card-transparent ">
-                        <img src="images/prewed8.jpg" class="responsive-img">
-
-                    </div>
-                </div>
-                <div class="col s6 l2">
-                    <div class="card-transparent ">
-                        <img src="images/prewed3.jpg" class="responsive-img">
-
-                    </div>
-                </div>
-                <div class="col s12 l2">
-                    <div class="card-transparent ">
-                        <img src="images/prewed4.jpg" class="responsive-img">
-
-                    </div>
-                </div>
-                <div class="col s12 l2">
-                    <div class="card-transparent ">
-                        <img src="images/prewed5.jpg" class="responsive-img">
-
-                    </div>
-                </div>
-                <div class="col s12 l2">
-                    <div class="card-transparent ">
-                        <img src="images/prewed6.jpg" class="responsive-img">
-
-                    </div>
                 </div>
 
             </div>
@@ -419,193 +345,38 @@
             </div>
         </div>
 
+        <!-----Contact---->
 
-        <!----Album----->
-
-        <!----      <div class="album">
+        <div class="contact scrollspy" id="contact" style="padding-bottom: 30px;">
+            <h4 class="white-text center-align" style="font-family: monospace; padding-top: 4px;">Contact Details</h4>
+            <hr style="width: 6%;">
             <div class="container">
                 <div class="row">
-                    <div class="col s12 l2">
-                        <img class="responsive-img materialboxed" src="images/wedding11.JPG">
-                    </div>
-                    <div class="col s12 l2">
-                        <img class="responsive-img materialboxed" src="images/wedding5.jpg">
-                    </div>
-                    <div class="col s12 l2">
-                        <img class="responsive-img materialboxed" src="images/wedding6.jpg">
-                    </div>
-                    <div class="col s12 l2">
-                        <img class="responsive-img materialboxed" src="images/wedding7.jpg">
-                    </div>
-                    <div class="col s12 l2">
-                        <img class="responsive-img materialboxed" src="images/prewed7.JPG">
-                    </div>
-                    <div class="col s12 l2">
-                        <img class="responsive-img materialboxed" src="images/prewed6.jpg">
-                    </div>
-                </div>
+                    <div class="col s12 l6" style="padding-top: 40px;">
+                        <div class="btn transparent" style="height: 250px; ">
+                            <p class="red-text left-align" style="padding-top: 10px; font-size: 22px; font-weight: 500; ">We are Social</p>
+                            <p class="white-text">Follow us on social network accounts.</p>
+                            <a href="https://m.facebook.com/Lakhan-Films-2107307379302185/?ref=bookmarks" class="btn-small social">Facebook</a>
+                            <a href="#" class="btn-small social">Instagram</a>
+                            <a href="https://www.youtube.com/channel/UC07uxxaj41QcUju7lkj2FsA" class="btn-small social">You Tube</a>
 
-                <div class="row">
-                    <div class="col s12 l2">
-                        <img class="responsive-img materialboxed" src="images/album1.jpg">
+                        </div>
                     </div>
-                    <div class="col s12 l2">
-                        <img class="responsive-img materialboxed" src="images/album2.jpg">
+                    <div class="col s12 l6" style="padding-top: 40px;">
+                        <div class="btn transparent" style="height: 250px;">
+                            <p class="red-text left-align" style="padding-top: 10px;  font-size: 22px; font-weight: 500;">QUICK CONTACT</p>
+                            <p class="white-text left-align" style="font-family: monospace; ">Email:<span style="text-transform: lowercase;"> lakshyakhandelwal1995@gmail.com</span></p>
+                            <p class="white-text left-align">Call: 8387930992, 9414378289</p>
+                            <p class="white-text left-align">Timing: All days 10:00 AM to 8:00 PM</p>
+                        </div>
                     </div>
-                    <div class="col s12 l2">
-                        <img class="responsive-img materialboxed" src="images/album1.jpg">
-                    </div>
-                    <div class="col s12 l2">
-                        <img class="responsive-img materialboxed" src="images/album2.jpg">
-                    </div>
-                    <div class="col s12 l2">
-                        <img class="responsive-img materialboxed" src="images/album1.jpg">
-                    </div>
-                    <div class="col s12 l2">
-                        <img class="responsive-img materialboxed" src="images/album2.jpg">
-                    </div>
-
                 </div>
             </div>
-        </div>---->
 
-
-        <div class="container album scrollspy" id="album" style="padding-top: 50px;">
-            <h1 style="position: absolute; padding-left: 20%; padding-top: 85px; color: white; ">OUR ALBUM + </h1>
-            <ul class="wedding-showcase clearfix">
-
-                <li>
-                    <figure class="wedding-photo">
-                        <img src="images/album1.jpg">
-                    </figure>
-                </li>
-                <li>
-                    <figure class="wedding-photo">
-                        <img src="images/album2.jpg">
-                    </figure>
-                </li>
-                <li>
-                    <figure class="wedding-photo">
-                        <img src="images/album1.jpg">
-                    </figure>
-                </li>
-                <li>
-                    <figure class="wedding-photo">
-                        <img src="images/album2.jpg">
-                    </figure>
-                </li>
-                <li>
-                    <figure class="wedding-photo">
-                        <img src="images/album1.jpg">
-                    </figure>
-                </li>
-
-                <li>
-                    <figure class="wedding-photo">
-                        <img src="images/album1.jpg">
-                    </figure>
-                </li>
-                <li>
-                <li>
-                    <figure class="wedding-photo">
-                        <img src="images/album1.jpg">
-                    </figure>
-                </li>
-                <li>
-                    <figure class="wedding-photo">
-                        <img src="images/album1.jpg">
-                    </figure>
-                </li>
-                <li>
-                    <figure class="wedding-photo">
-                        <img src="images/album1.jpg">
-                    </figure>
-                </li>
-
-            </ul>
-
-            <ul class="wedding-showcase clearfix">
-
-                <li>
-                    <figure class="wedding-photo">
-                        <img src="images/album1.jpg">
-                    </figure>
-                </li>
-                <li>
-                    <figure class="wedding-photo">
-                        <img src="images/album2.jpg">
-                    </figure>
-                </li>
-                <li>
-                    <figure class="wedding-photo">
-                        <img src="images/album1.jpg">
-                    </figure>
-                </li>
-                <li>
-                    <figure class="wedding-photo">
-                        <img src="images/album2.jpg">
-                    </figure>
-                </li>
-                <li>
-                    <figure class="wedding-photo">
-                        <img src="images/album1.jpg">
-                    </figure>
-                </li>
-
-                <li>
-                    <figure class="wedding-photo">
-                        <img src="images/album1.jpg">
-                    </figure>
-                </li>
-                <li>
-                <li>
-                    <figure class="wedding-photo">
-                        <img src="images/album1.jpg">
-                    </figure>
-                </li>
-                <li>
-                    <figure class="wedding-photo">
-                        <img src="images/album1.jpg">
-                    </figure>
-                </li>
-                <li>
-                    <figure class="wedding-photo">
-                        <img src="images/album1.jpg">
-                    </figure>
-                </li>
-
-            </ul>
         </div>
-
-        <div class="contact scrollspy" id="contact">
-            <h4 class="white-text center-align" style="font-family: monospace; padding-top: 200px;">Contact Details</h4>
-            <hr style="width: 6%;">
-<div class="container">
-<div class="row">
-            <div class="col s12 l6" style="padding-top: 40px;">
-                <div class="btn transparent" style="height: 250px; ">
-    
-                <p class="red-text left-align" style="padding-top: 10px; font-size: 22px; font-weight: 500;">We are Social</p>
-        <p class="white-text" >Follow us on social network accounts.</p>
-        <div class="btn" >Facebook</div>
-        <div class="btn">Instagram</div>
-        <div class="btn">You Tube</div>
-                
-    </div>
-    </div>
-    <div class="col s12 l6" style="padding-top: 40px;">
-        <div class="btn transparent" style="height: 250px;">
-    <p class="red-text left-align" style="padding-top: 10px;  font-size: 22px; font-weight: 500;">QUICK CONTACT</p>
-        <p class="white-text left-align">Email: lakshyakhandelwal1995@gmail.com</p>
-        <p class="white-text left-align">Call: 8387930992, 9414378289</p>
-        <p class="white-text left-align">Timing: All days 10:00 AM to 8:00 PM</p>
-    </div>
+        <div class="footer center-align" style="background-color: gainsboro; margin-top: 40px; height: 42px; padding-top: 1px;">
+            <h6 class="text-center">Copyright &copy; 2020, Design by Harshita Singh</h6>
         </div>
-</div>
-  </div>
-      
-            <div class="footer center-align" style="background-color: gainsboro; margin-top: 40px; height: 42px; padding-top: 1px;"><h6 class="text-center">Copyright &copy; 2020, Design by Harshita Singh</h6></div>
-    
 
         <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 
