@@ -17,15 +17,15 @@
 
     <style>
         .cover {
-            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/cover2.jpg);
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/back/6.JPG);
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center;
             background-attachment: fixed;
             width: 100%;
 
-            animation: slider 30s infinite linear;
-            animation-delay: 2s;
+            animation: slider 40s infinite linear;
+            animation-delay: 8s;
         }
 
         .wedding-showcase {
@@ -64,24 +64,28 @@
 
 
         @keyframes slider {
-            35% {
-                background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/cover1.JPG);
+            20% {
+                background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/back/2.JPG);
+            }
+
+            40% {
+                background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/back/3.JPG);
             }
 
             50% {
-                background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/cover3.JPG);
+                background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/back/4.JPG);
             }
 
-            85% {
-                background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/cover4.jpg);
+            60% {
+                background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/back/5.JPG);
             }
-
-            90% {
-                background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/cover7.JPG);
+ 70% {
+                background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/back/6.JPG);
             }
-
-
-        }
+             85% {
+                background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/back/7.JPG);
+            }
+         }
 
         @media screen and (max-width: 670px) {
             header {
@@ -105,7 +109,7 @@
     <div class="cover">
 
         <div class="navbar-fixed" style="position: fixed; top: 0;">
-            <nav class="nav-wrapper transparent lighten-1 ">
+            <nav class="nav-wrapper black lighten-1 ">
                 <div class="container">
                     <a href="#" class="brand-logo" style="font-family: 'Merienda One', cursive;"><span class="logo">Lakhan Films</span></a>
                     <a href="#" class="sidenav-trigger" data-target="mobile-menu">
@@ -116,14 +120,11 @@
                         <li><a href="#work">Work</a></li>
                         <li><a href="#testimonials">Testimonials</a></li>
                         <li><a href="#contact">Contact</a></li>
+                        <li><a href="#"> About</a></li>
                         <li><a class="orange btn" href="album.html">Album</a></li>
                     </ul>
-
-
-                </div>
-
-
-            </nav>
+</div>
+</nav>
 
         </div>
 
@@ -132,6 +133,7 @@
             <li><a class="sidenav-close" href="#work">Work</a></li>
             <li><a class="sidenav-close" href="#testimonials">Testimonials</a></li>
             <li><a class="sidenav-close" href="#contact">Contact</a></li>
+            <li><a class="sidenav-close" href="#">About</a></li>
             <li><a class="sidenav-close" href="album.html">Album</a></li>
         </ul>
         <div class="covertext center-align" style="padding-top: 250px;">
@@ -152,27 +154,27 @@
         </div>
         <div class="container-fluid">
             <p class="white-text center-align" style="font-family: monospace; font-size: 18px;">Employing unmatched passion, unfathomable photography skills and years of expertise, our photographers deliver perfect shots that can bring a hearty smile on anybody’s face.</p>
-            <p class="white-text center-align" style="font-family: monospace; font-size: 16px;">Lakhan Films is based out of Kota and provide services throughout India. We take on professional photography assignments which include photography, portfolio shoot, wedding shoot, & event photography, video shoot and much more.</p>
+            <p class="white-text center-align" style="font-family: monospace; font-size: 16px;">Lakhan Films is based out of Kota and provide services throughout India. We take on professional photography assignments which include photography, cinematography, portfolio shoot, wedding shoot, event photography, video shoot and much more.</p>
         </div>
         <div class="container">
             <div class="row" style="padding-top: 20px;">
                 <div class="col s12 l4">
                     <div class="card-transparent">
-                        <img class="responsive-img materialboxed" src="images/wedding12.JPG">
+                        <a href="#"><img class="responsive-img materialboxed" src="images/wedding12.JPG"></a>
                         <p class="white-text center-align" style="font-family: monospace; font-size: 20px;">WEDDING PHOTOGRAPHY</p>
                     </div>
                 </div>
 
                 <div class="col s12 l4">
                     <div class="card-transparent">
-                        <img class="responsive-img materialboxed" src="images/prewedtitle.jpg">
+                        <a href="#"><img class="responsive-img materialboxed" src="images/prewedtitle.jpg"></a>
                         <p class="white-text center-align" style="font-family: monospace; font-size: 20px;">PRE WEDDING PHOTOGRAPHY</p>
                     </div>
                 </div>
 
                 <div class="col s12 l4">
                     <div class="card-transparent">
-                        <img class="responsive-img materialboxed" src="images/cinematographytitle.jpg">
+                        <a href="#"><img class="responsive-img materialboxed" src="images/cinematographytitle.jpg"></a>
                         <p class="white-text center-align" style="font-family: monospace; font-size: 20px;">CINEMATOGRAPHY</p>
                     </div>
                 </div>
@@ -181,21 +183,21 @@
             <div class="row" style="padding-top: 20px;">
                 <div class="col s12 l4">
                     <div class="card-transparent">
-                        <img class="responsive-img materialboxed" src="images/portfolioshoot.jpg">
+                        <a href="#"><img class="responsive-img materialboxed" src="images/portfolioshoot.jpg"></a>
                         <p class="white-text center-align" style="font-family: monospace; font-size: 20px;">PORTFOLIO SHOOT</p>
                     </div>
                 </div>
 
                 <div class="col s12 l4">
                     <div class="card-transparent">
-                        <img class="responsive-img materialboxed" src="images/baby.jpg">
+                        <a href="#"> <img class="responsive-img materialboxed" src="images/baby.jpg"></a>
                         <p class="white-text center-align" style="font-family: monospace; font-size: 20px;">BABY SHOOT</p>
                     </div>
                 </div>
 
                 <div class="col s12 l4">
                     <div class="card-transparent">
-                        <img class="responsive-img materialboxed" src="images/familyportraits.jpg">
+                        <a href="#"> <img class="responsive-img materialboxed" src="images/familyportraits.jpg"></a>
                         <p class="white-text center-align" style="font-family: monospace; font-size: 20px;">FAMILY PORTRAIT</p>
                     </div>
                 </div>
@@ -208,14 +210,20 @@
             <hr class="red-text " style="width: 4%;">
 
             <!-- tabs -->
-
             <div class="tabsalign left-align" style="padding-left: 20px;">
                 <ul class="tabs transparent ">
                     <li class="tab col s4">
                         <a href="#wedding" class="active blue-text lighten-4" style="font-weight: 500; font-size: 20px;">Wedding</a>
                     </li>
                     <li class="tab col s4">
-                        <a href="#prewedding" class="violet-text lighten-4" style="font-weight: 500; font-size: 20px;">Pre Wedding</a>
+                        <a href="#prewedding" class="red-text lighten-1" style="font-weight: 500; font-size: 20px;">Pre Wedding</a>
+                    </li>
+                    <li class="tab col s4">
+                        <a href="#portfolio" class="green-text lighten-4" style="font-weight: 500; font-size: 20px;">Portfolio</a>
+                    </li>
+                    
+                    <li class="tab col s4">
+                        <a href="#video" class="orange-text lighten-4" style="font-weight: 500; font-size: 20px;">Video Shoot</a>
                     </li>
 
                 </ul>
@@ -224,78 +232,132 @@
             <div class="row wedding" id="wedding">
 
                 <div class="col s6 l2">
-                    <img src="images/wedding5.jpg" class="responsive-img materialboxed">
+                    <img src="images/wedding/1.JPG" class="responsive-img materialboxed">
 
                 </div>
                 <div class="col s6 l2">
-                    <img src="images/wedding6.jpg" class="responsive-img materialboxed">
+                    <img src="images/wedding/2.JPG" class="responsive-img materialboxed">
 
                 </div>
                 <div class="col s6 l2">
-                    <img src="images/wedding7.jpg" class="responsive-img materialboxed">
+                    <img src="images/wedding/3.JPG" class="responsive-img materialboxed">
 
                 </div>
 
 
                 <div class="col s6 l2">
 
-                    <img src="images/wedding8.jpg" class="responsive-img materialboxed">
+                    <img src="images/wedding/4.JPG" class="responsive-img materialboxed">
 
                 </div>
                 <div class="col s6 l2">
 
-                    <img src="images/wedding10.jpg" class="responsive-img materialboxed">
+                    <img src="images/wedding/5.JPG" class="responsive-img materialboxed">
 
 
                 </div>
                 <div class="col s6 l2">
-                    
-                        <a href=""><img src="images/wedding11.JPG" class="responsive-img materialboxed"></a>
+
+                    <a href=""><img src="images/wedding/6.JPG" class="responsive-img materialboxed"></a>
 
                 </div>
             </div>
+            <!----prewed---->
+            <div class="row wedding" id="prewedding">
 
-            <!----pre wedding---->
-            <div class="row prewedding" id="prewedding">
                 <div class="col s6 l2">
-                    
-                        <img src="images/new.jpg" class="responsive-img materialboxed">
-
-                 
-                </div>
-                <div class="col s6 l2">
-                   
-                        <img src="images/new2.jpg" class="responsive-img materialboxed">
-
-                   
-                </div>
-                <div class="col s6 l2">
-                    
-                        <img src="images/new5.jpg" class="responsive-img materialboxed">
+                    <img src="images/prewedding/1.jpg" class="responsive-img materialboxed">
 
                 </div>
                 <div class="col s6 l2">
-                   
-                        <img src="images/prewed7.JPG" class="responsive-img materialboxed">
+                    <img src="images/prewedding/2.jpg" class="responsive-img materialboxed">
 
-                   
                 </div>
                 <div class="col s6 l2">
-                    
-                        <img src="images/prewed8.jpg" class="responsive-img materialboxed">
+                    <img src="images/prewedding/3.jpg" class="responsive-img materialboxed">
 
-                    
+                </div>
+
+
+                <div class="col s6 l2">
+
+                    <img src="images/prewedding/4.jpg" class="responsive-img materialboxed">
+
                 </div>
                 <div class="col s6 l2">
-                    
-                        <img src="images/prewed3.jpg" class="responsive-img materialboxed">
 
-                   
+                    <img src="images/prewedding/5.jpg" class="responsive-img materialboxed">
+
+
+                </div>
+                <div class="col s6 l2">
+
+                    <a href=""><img src="images/wedding/6.JPG" class="responsive-img materialboxed"></a>
+
+                </div>
+            </div>
+            <!------portfolio----->
+            
+            <div class="row wedding" id="portfolio">
+
+                <div class="col s6 l2">
+                    <img src="images/portfolio/1.jpg" class="responsive-img materialboxed">
+
+                </div>
+                <div class="col s6 l2">
+                    <img src="images/portfolio/2.jpeg" class="responsive-img materialboxed">
+
+                </div>
+                <div class="col s6 l2">
+                    <img src="images/portfolio/3.jpeg" class="responsive-img materialboxed">
+
+                </div>
+
+
+                <div class="col s6 l2">
+
+                    <img src="images/portfolio/4.jpeg" class="responsive-img materialboxed">
+
+                </div>
+                <div class="col s6 l2">
+
+                    <img src="images/portfolio/5.jpeg" class="responsive-img materialboxed">
+
+
+                </div>
+                <div class="col s6 l2">
+
+                    <a href=""><img src="images/portfolio/6.jpeg" class="responsive-img materialboxed"></a>
+
+                </div>
+            </div>
+            <!----video---->
+            
+            
+             <div class="row wedding" id="video">
+
+                <div class="col s6 l3">
+                   <a href="https://www.youtube.com/watch?v=LRdHZgihLdI"> <img src="images/portfolio/1.jpg" class="responsive-img materialboxed"></a>
+
+                </div>
+                <div class="col s6 l3">
+                    <a href="https://www.youtube.com/watch?v=Rz6SdMJtCME"><img src="images/portfolio/2.jpeg" class="responsive-img materialboxed"></a>
+
+                </div>
+                <div class="col s6 l3">
+                   <a href="https://www.youtube.com/channel/UC07uxxaj41QcUju7lkj2FsA"> <img src="images/portfolio/3.jpeg" class="responsive-img materialboxed"></a>
+
+                </div>
+
+
+                <div class="col s6 l3">
+
+                    <a href="https://www.youtube.com/watch?v=O1vU4dGa_Uc"><img src="images/portfolio/4.jpeg" class="responsive-img materialboxed"></a>
+
                 </div>
                 
-
             </div>
-        </div>
+                   </div>
         <!----Testimonials---->
         <div class="container-fluid testmonials scrollspy" id="testimonials">
             <h4 class="white-text center-align" style="font-family: monospace; padding-top: 40px;">Testimonials</h4>
@@ -357,8 +419,8 @@
                         <div class="btn transparent" style="height: 250px; ">
                             <p class="red-text left-align" style="padding-top: 10px; font-size: 22px; font-weight: 500; ">We are Social</p>
                             <p class="white-text">Follow us on social network accounts.</p>
-                            <a href="https://m.facebook.com/Lakhan-Films-2107307379302185/?ref=bookmarks" class="btn-small social">Facebook</a>
-                            <a href="#" class="btn-small social">Instagram</a>
+                            <a href="https://www.facebook.com/Lakhan-Films-2107307379302185" class="btn-small social">Facebook</a>
+                            <a href="https://www.instagram.com/lakhan_films/" class="btn-small social">Instagram</a>
                             <a href="https://www.youtube.com/channel/UC07uxxaj41QcUju7lkj2FsA" class="btn-small social">You Tube</a>
 
                         </div>
